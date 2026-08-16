@@ -15,5 +15,5 @@ This repository contains basic Python programs to practice Object-Oriented Progr
 🚧 Learning in progress
 
 ## Author
-K. Jacob Sugun  
-B.Tech CSDS (2nd Year)
+K. Messi
+B.Tech EEE (2nd Year)
