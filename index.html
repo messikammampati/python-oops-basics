@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saffron Table — fresh, seasonal Mediterranean dining in the heart of the city."
+    />
+    <title>Saffron Table | Seasonal Mediterranean Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Saffron Table home">Saffron <span>Table</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="button button-small" href="#contact">Book a table</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A taste of the Mediterranean</p>
+          <h1 id="hero-title">Gather around something <em>beautiful.</em></h1>
+          <p class="hero-text">
+            Sunlit ingredients, slow-cooked stories, and a table set for lingering. Welcome to your new favorite
+            neighborhood ritual.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Reserve your table</a>
+            <a class="text-link" href="#menu">Explore our menu <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-image" role="img" aria-label="A colorful Mediterranean meal served at a table"></div>
+        <div class="hero-note"><span>Open daily</span><strong>12 pm — 11 pm</strong></div>
+      </section>
+
+      <section class="intro section" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">Our philosophy</p>
+          <h2 id="about-title">Food that feels like a long exhale.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Saffron Table brings the bright, generous spirit of the Mediterranean to every plate. We cook with the
+            season, source with care, and make room for the moments in between bites.
+          </p>
+          <a class="text-link" href="#contact">Come dine with us <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="feature-strip" aria-label="Restaurant highlights">
+        <div><strong>Locally sourced</strong><span>Thoughtful ingredients, nearby farms</span></div>
+        <div><strong>Made from scratch</strong><span>Every sauce, every morning</span></div>
+        <div><strong>Made to share</strong><span>Good food tastes better together</span></div>
+      </section>
+
+      <section class="menu section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading menu-heading">
+          <div>
+            <p class="eyebrow">From our kitchen</p>
+            <h2 id="menu-title">A little something for every appetite.</h2>
+          </div>
+          <a class="text-link" href="#contact">View full menu <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="menu-grid">
+          <article class="dish-card">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Bowl of colorful roasted vegetables" />
+            <div class="dish-content">
+              <div class="dish-title"><h3>Garden Mezze Bowl</h3><span>$16</span></div>
+              <p>Charred vegetables, lemon hummus, herbed couscous, and toasted seeds.</p>
+              <span class="tag">Vegetarian</span>
+            </div>
+          </article>
+          <article class="dish-card dish-card-featured">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85" alt="Fresh salad with avocado, grains, and greens" />
+            <div class="dish-content">
+              <div class="dish-title"><h3>Citrus Market Salad</h3><span>$14</span></div>
+              <p>Avocado, seasonal greens, feta, toasted almonds, and orange vinaigrette.</p>
+              <span class="tag">Fresh pick</span>
+            </div>
+          </article>
+          <article class="dish-card">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85" alt="Wood-fired pizza with fresh toppings" />
+            <div class="dish-content">
+              <div class="dish-title"><h3>Wood-Fired Margherita</h3><span>$18</span></div>
+              <p>San Marzano tomato, fior di latte, basil, and a crackly sourdough crust.</p>
+              <span class="tag">House favorite</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="offer section" id="offers" aria-labelledby="offer-title">
+        <div class="offer-image" role="img" aria-label="Freshly plated pasta with tomatoes and herbs"></div>
+        <div class="offer-copy">
+          <p class="eyebrow">Weeknight ritual</p>
+          <h2 id="offer-title">Golden hour, on us.</h2>
+          <p>
+            Join us Tuesday through Thursday from 4–6 pm for a glass of house wine and three small plates for $32.
+            Bring the whole table.
+          </p>
+          <a class="button button-light" href="#contact">Plan your evening</a>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">Pull up a chair</p>
+          <h2 id="contact-title">Your table is waiting.</h2>
+          <p>For reservations, private gatherings, or a friendly hello, we’d love to hear from you.</p>
+          <a class="button" href="mailto:hello@saffrontable.com">Email us</a>
+        </div>
+        <address class="contact-details">
+          <div><span>Find us</span><strong>42 Olive Street<br />Riverside, CA 92501</strong></div>
+          <div><span>Call us</span><a href="tel:+15550144228">(555) 014-4228</a></div>
+          <div><span>Hours</span><strong>Mon–Sun · 12 pm–11 pm</strong></div>
+        </address>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#home">Saffron <span>Table</span></a>
+      <p>Made for lingering over good food.</p>
+      <p>© 2026 Saffron Table</p>
+    </footer>
+  </body>
+</html>
