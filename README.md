@@ -17,3 +17,7 @@ This repository contains basic Python programs to practice Object-Oriented Progr
 ## Author
 K. Messi
 B.Tech EEE (2nd Year)
+
+## Portfolio
+
+Open [portfolio.html](portfolio.html) to view K. Messi’s superhero-inspired portfolio. It is a single HTML file with embedded CSS.
